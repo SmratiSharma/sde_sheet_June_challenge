@@ -28,3 +28,14 @@ Approach :
 6. So we find result using dp [ col ] += dp [ col-1 ]
 
 Time complexity : O(m+n) 
+
+
+Problem 3 : Reverse Pair
+(Hard problem)
+Approach :
+1. We have to sovle it like count Inversion.
+2. We use merge Sort here.
+3. Like in merge sort we merge two sorted array, we will use this principle and at the time of merge, we will find out number of elements in right arrays that follow the given condition.
+4. It's very tricky.
+
+Time Complexity : O(n long n ) 
